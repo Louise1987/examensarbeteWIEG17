@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Episerverfrontend", "Episerverfrontend\Episerverfrontend.csproj", "{5456F8C4-5D84-4D1D-A980-C54171B64CDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "..\WebApplication\WebApplication.csproj", "{01817FF2-171A-4091-82A3-16E94EB8C6BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5456F8C4-5D84-4D1D-A980-C54171B64CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5456F8C4-5D84-4D1D-A980-C54171B64CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5456F8C4-5D84-4D1D-A980-C54171B64CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5456F8C4-5D84-4D1D-A980-C54171B64CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01817FF2-171A-4091-82A3-16E94EB8C6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01817FF2-171A-4091-82A3-16E94EB8C6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01817FF2-171A-4091-82A3-16E94EB8C6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01817FF2-171A-4091-82A3-16E94EB8C6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8495D1D-70BA-40E5-B23E-4B688BC9E43A}
+	EndGlobalSection
+EndGlobal
