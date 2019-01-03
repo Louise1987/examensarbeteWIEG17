@@ -320,7 +320,9 @@
     <Compile Include="Controllers\DefaultPageController.cs" />
     <Compile Include="Controllers\FindSearchPageController.cs" />
     <Compile Include="Controllers\ImageFileController.cs" />
+    <Compile Include="Controllers\MyContentType.cs" />
     <Compile Include="Controllers\PageControllerBase.cs" />
+    <Compile Include="Controllers\PageData.cs" />
     <Compile Include="Controllers\PageListBlockController.cs" />
     <Compile Include="Controllers\PreviewController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
@@ -343,6 +345,7 @@
     <Compile Include="Models\Blocks\SiteBlockData.cs" />
     <Compile Include="Models\Blocks\SiteLogotypeBlock.cs" />
     <Compile Include="Models\Blocks\TeaserBlock.cs" />
+    <Compile Include="Models\Catalog\MyNode.cs" />
     <Compile Include="Models\Media\GenericMedia.cs" />
     <Compile Include="Models\Media\ImageFile.cs" />
     <Compile Include="Models\Media\VideoFile.cs" />

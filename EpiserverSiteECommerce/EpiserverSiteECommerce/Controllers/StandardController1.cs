@@ -8,7 +8,7 @@ using EPiServer.Web.Mvc;
 
 namespace EpiserverSiteECommerce.Controllers
 {
-    public class StandardController1 : PageController<MyContentType>
+    public class StandardController : PageController<MyContentType>
     {
         public ActionResult Index(MyContentType currentPage)
         {
