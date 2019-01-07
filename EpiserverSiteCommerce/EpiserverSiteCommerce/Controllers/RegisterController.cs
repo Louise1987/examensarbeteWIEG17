@@ -36,9 +36,8 @@ namespace EpiserverSiteCommerce.Controllers
         {
             if (ModelState.IsValid)
             {
-                UIUserCreateStatus status;
                 IEnumerable<string> errors = Enumerable.Empty<string>();
-                var result = UIUserProvider.CreateUser(model.Username, model.Password, model.Email, null, null, true, out status, out errors);
+                var result = UIUserProvider.CreateUser(model.Username, model.Password, model.Email, null, null, true, out UIUserCreateStatus status, out errors);
                 if (status == UIUserCreateStatus.Success)
                 {
                     UIRoleProvider.CreateRole(AdminRoleName);

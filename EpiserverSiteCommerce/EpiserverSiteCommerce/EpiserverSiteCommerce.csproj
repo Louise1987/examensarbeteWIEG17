@@ -356,7 +356,9 @@
     <Compile Include="Models\Pages\ProductPage.cs" />
     <Compile Include="Models\Pages\SitePageData.cs" />
     <Compile Include="Models\Pages\StandardPage.cs" />
+    <Compile Include="Models\Pages\StandardPageForth.cs" />
     <Compile Include="Models\Pages\StandardPageSecond.cs" />
+    <Compile Include="Models\Pages\StandardPageThird.cs" />
     <Compile Include="Models\Pages\StartPage.cs" />
     <Compile Include="Models\Properties\PropertyStringList.cs" />
     <Compile Include="Models\Register\RegisterViewModel.cs" />
@@ -498,6 +500,8 @@
     <Content Include="Views\ContactBlock\Index.cshtml" />
     <Content Include="Views\ArticlePage\Index.cshtml" />
     <Content Include="Views\StandardPageSecond\Index.cshtml" />
+    <Content Include="Views\StandardPageThird\Index.cshtml" />
+    <Content Include="Views\StandardPageForth\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
