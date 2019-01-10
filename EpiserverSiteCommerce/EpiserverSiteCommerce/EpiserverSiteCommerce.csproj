@@ -552,7 +552,6 @@
     <Content Include="Static\jwplayer\video.mp4" />
     <Content Include="Views\Web.config" />
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
     <Content Include="App_Data\DefaultSiteContent.episerverdata" />
     <Content Include="App_Data\GeoLiteCity.dat" />
     <Content Include="Configs\baf.config" />
@@ -571,7 +570,9 @@
     <Content Include="modules\_protected\EPiServer.Cms.TinyMce\web.config" />
     <Content Include="modules\_protected\EPiServer.Cms.TinyMce\EPiServer.Cms.TinyMce.zip" />
     <Content Include="module.config" />
-    <Content Include="modules\_protected\Shell\web.config" />
+    <Content Include="modules\_protected\Shell\web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="modules\_protected\Shell\Shell.zip" />
     <Content Include="modules\_protected\CMS\web.config" />
     <Content Include="modules\_protected\CMS\CMS.zip" />
@@ -622,12 +623,6 @@
     <Content Include="Views\StandardPageSecond\Index.cshtml" />
     <Content Include="Views\StandardPageThird\Index.cshtml" />
     <Content Include="Views\StandardPageForth\Index.cshtml" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ProjectExtensions>
     <VisualStudio>
